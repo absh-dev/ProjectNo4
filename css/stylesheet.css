@@ -1,0 +1,664 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*Universal Properties start here*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Universal Properties End here */
+
+/*global properties start here */
+
+body {
+    font-family: 'Poppins';
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*global properties end here */
+
+/*---------------------------------------------Body starts here--------------------------------------------------*/
+/*------------------------------------------------NavBar-----------------------------------------------*/
+header {
+    background-color: #daac00;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 31.5px;
+}
+.container .logo{
+font-size: 0px;
+}
+
+.container nav ul {
+    display: flex;
+    gap: 60px;
+}
+
+ul li a {
+    font-size: 28px;
+}
+
+.input {
+    display: flex;
+    justify-items: center;
+      box-shadow: 0px 10px 10px #caa000;
+}
+
+.fa-magnifying-glass {
+    padding-block: 14px;
+    padding-inline: 22px;
+    background-color: #00bec9;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 0px;
+}
+
+.input input::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+.input input {
+    display: flex;
+    font-size: 20px;
+    padding: 14px;
+    background-color: #fcc302;
+    outline: none;
+    border: none;
+    color: white;
+    width: 200px;
+}
+
+.fa-magnifying-glass:hover{
+    background-color: black;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.container .logo:hover{
+background-color: gray;
+}
+
+/*head ends here*/
+
+
+/*------------------------------------------------Page No.1-----------------------------------------------*/
+
+.hero {
+    background-color: #fcc302;
+    padding-block: 86.5px;
+}
+
+.hero .container {
+    display: flex;
+    gap: 50px;
+}
+
+.hero .container .content {
+    color: white;
+    padding-block: 70px;
+}
+
+.container .content h2 {
+    font-size: 68px;
+    line-height: 80px;
+}
+
+.container .content p {
+    font-size: 29px;
+    margin-block: 35px;
+}
+
+.container .content .btn {
+    font-size: 22px;
+    display: flex;
+    gap: 40px;
+}
+
+.content .btn a {
+    padding-block: 18px;
+    padding-inline: 30px;
+    border-radius: 10px;
+}
+
+.content .btn .button1 {
+    background-color: #00bec9;
+    border: 3px solid #00bec9;
+}
+
+.content .btn .button2 {
+    border: 3px solid white;
+}
+
+.content .btn .button1:hover{
+    background-color: black;
+    border: 3px solid black;
+}
+
+.content .btn .button2:hover{
+background-color: black;
+}
+
+/*------------------------------------------------Page No.2-----------------------------------------------*/
+
+.verternarian{
+    padding-block: 155.5px;
+}
+
+.verternarian .container {
+    display: flex;
+    gap: 50px;
+}
+
+.verternarian .container .page2content {
+    color: black;
+    padding-block: 47px;
+}
+
+.container .page2content h3 {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.container .page2content p {
+    font-size: 29px;
+    padding-block: 30px;
+}
+
+.container .page2content .page2button {
+    font-size: 20px;
+    display: flex;
+}
+
+.page2content .page2button a {
+    padding-block: 18px;
+    padding-inline: 30px;
+    border-radius: 10px;
+}
+
+.page2content .page2button .servicebutton {
+    background-color: #fcc302;
+}
+
+.page2content .page2button .servicebutton:hover{
+    background-color: black;
+}
+
+.container .contentimage {
+    font-size: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.container .contentimage .firstimg{
+    font-size: 0px;
+}
+
+.contentimage .secondimg {
+    position: absolute;
+    left: -35px;
+    bottom: -35px;
+    z-index: -1;
+    font-size: 0px;
+}
+
+.contentimage .circleimg {
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    left: 210px;
+    font-size: 0px;
+}
+
+.contentimage .playbtn {
+    position: absolute;
+    z-index: 3;
+    top: 225px;
+    left: 243px;
+    font-size: 0px;
+}
+
+/*------------------------------------------------Page No.3-----------------------------------------------*/
+
+main .aboutvets {
+    background-color: #fcc302;
+    padding-block: 96.5px;
+}
+
+.container .page3content .page3text {
+    text-align: center;
+}
+
+.pg3cards {
+    display: flex;
+    gap: 66px;
+    color: white;
+}
+
+.pg3cards .card .cardimg {
+    margin-bottom: 66px;
+}
+
+.page3text {
+    color: white;
+}
+
+.page3text h2 {
+    font-size: 50px;
+}
+
+.page3text p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+
+.pg3cards .card h3 {
+    font-size: 37.5px;
+    text-align: center;
+}
+
+.pg3cards .card p {
+    font-size: 24px;
+}
+
+/*------------------------------------------------Page No.4-----------------------------------------------*/
+
+.verternarian2{
+    padding-block: 155.5px;
+}
+
+.verternarian2 .container {
+    display: flex;
+    gap: 50px;
+}
+
+.verternarian2 .container .page4content {
+    color: black;
+    padding-block: 47px;
+    text-align: right;
+}
+
+.container .page4content h3 {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.container .page4content p {
+    font-size: 29px;
+    padding-block: 30px;
+}
+
+.container .page4content .page4button {
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.container .page4content .page4button .servicebutton:hover {
+background-color: black;
+}
+
+.page4content .page4button a {
+    padding-block: 18px;
+    padding-inline: 30px;
+    border-radius: 10px;
+}
+
+.page4content .page4button .servicebutton {
+    background-color: #fcc302;
+}
+
+.container .contentimage2 {
+    position: relative;
+    z-index: 1;
+    font-size: 0px;
+}
+
+.container .contentimage2 .firstimg {
+    position: relative;
+}
+
+.contentimage2 .secondimg {
+    position: absolute;
+    left: 295px;
+    bottom: -40px;
+    z-index: -1;
+}
+
+.contentimage2 .circleimg {
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    left: 210px;
+}
+
+.contentimage2 .playbtn {
+    position: absolute;
+    z-index: 3;
+    top: 225px;
+    left: 243px;
+}
+
+.contentimage2 .coverimage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*------------------------------------------------Page No.5-----------------------------------------------*/
+
+main .page5 {
+    background-color: #fcc302;
+    padding-block: 160px;
+}
+
+.container .page5content .page5text {
+    text-align: center;
+}
+
+.pg5cards {
+    display: flex;
+    gap: 66px;
+    color: white;
+    padding-top: 85px;
+}
+
+.page5text {
+    color: white;
+}
+
+.page5text p {
+    font-size: 25px;
+}
+
+.page5text h2 {
+    font-size: 50px;
+}
+
+.pg5cards .card .cardimg{
+    font-size: 0px;
+}
+
+.pg5cards .card h3 {
+    font-size: 37.5px;
+    text-align: center;
+    padding: 16px 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.pg5cards .card .page5btn {
+    font-size: 25px;
+    text-align: center;
+    background-color: #00bec9;
+    padding-block: 8px;
+    border-radius: 50px;
+    margin-inline: 86px;
+}
+
+.pg5cards .card .page5btn:hover{
+    background-color: black;
+}
+
+/*------------------------------------------------Page No.6-----------------------------------------------*/
+
+.page6 {
+    padding-block: 125px;
+}
+
+.page6content .pg6text {
+    text-align: center;
+}
+
+.page6content .pg6text h2 {
+    color: #313243;
+    font-size: 75px;
+}
+
+.page6content .pg6text p {
+    font-size: 33px;
+}
+
+.page6content .pg6cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pg6cards .card .cardimg {
+    margin-bottom: 22px;
+    font-size: 0px;
+}
+
+.pg6cards .card h3 {
+    margin-bottom: 30px;
+}
+
+.page6btn .button {
+    background-color: #fcc302;
+    padding: 25px 5px 0px 5px;
+    border-radius: 25px;
+}
+
+.page6btn .button:hover{
+    background-color: black;
+}
+
+/*------------------------------------------------Page No.7-----------------------------------------------*/
+
+.page7 {
+    color: white;
+    background-image: url('../imgs/Shape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 172px;
+}
+
+.page7 .container .pg7cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+}
+
+.pg7cards .card .cardtext {
+    padding-top: 20px;
+}
+
+.pg7cards .card .cardtext h2 {
+    font-size: 41.67px;
+}
+
+.pg7cards .card .cardtext h3 {
+    font-size: 37.5px;
+}
+
+.card .icon{
+    font-size: 0px;
+}
+
+
+/*------------------------------------------------Page No.8-----------------------------------------------*/
+
+.page8 {
+    padding-block: 93.5px;
+}
+
+.page8content .page8text h3 {
+    text-align: center;
+    font-size: 75px;
+}
+
+.page8content .page8text p {
+    text-align: center;
+    font-size: 33.33px;
+}
+
+.page8cards {
+    display: flex;
+    padding-top: 100px;
+    gap: 38px;
+}
+
+.page8img {
+    font-size: 0px;
+}
+
+.page8cardcontent {
+    border: 2px solid lightgray;
+    border-top: none;
+    padding: 23px;
+    box-shadow: 
+    4px 4px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.page8cardcontent h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.page8cardcontent span {
+    font-size: 16.67px;
+    color: #33cbd4;
+    font-weight: bold;
+}
+
+
+.page8cardcontent p {
+    font-size: 16.67px;
+    padding-block: 25px;
+}
+
+.page8cardcontent .page8btn a {
+    color: #33cbd4;
+    font-size: 20.83px;
+    font-weight: bold;
+}
+
+.page8cardcontent .page8btn a:hover{
+    color: black;
+}
+
+/*------------------------------------------------Footer-----------------------------------------------*/
+
+footer {
+    background-color: #343434;
+    color: white;
+    padding-block: 142.5px;
+}
+
+.footercard1 {
+    font-size: 0px;
+}
+
+.footcards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footcards ul li h3 {
+    font-size: 37.5px;
+    padding-block: 8px;
+}
+
+.footcards ul li {
+    font-size: 25px;
+    padding-block: 6px;
+}
+
+.footercard2 {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    justify-content: right;
+    text-align: right;
+}
+
+.footercard2 .footercard2text {
+    text-align: right;
+}
+
+.footercard2 .footercard2text h3 {
+    font-size: 37.5px;
+}
+
+.footercard2 .footercard2text p {
+    font-size: 25px;
+}
+
+.footercard2 .footercard2search input {
+    padding-block: 26px;
+    padding-inline: 10px;
+    font-size: 32px;
+    background-color: #daac00;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.footercard2 .footercard2search a {
+    padding-bottom: 28px;
+    padding-top: 38px;
+    padding-inline: 46px;
+    background-color: #00bec9;
+}
+
+.footercard2 .footercard2icons li a img{
+    margin-inline: 6px;
+}
+
+.footercard2 .footercard2search a:hover{
+    background-color: black;
+}
+
+.footercard2 .footercard2icons li a img:hover{
+    background-color: #fcc302;
+    border-radius: 20px;
+}
+
+/*------------------------------------------------x-The End-x-----------------------------------------------*/
